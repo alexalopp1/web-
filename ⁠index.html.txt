@@ -1,0 +1,161 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Mi Portafolio</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+    <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="foto-perfil">
+        <h1>¡Hola! Soy Ariadna Lopez</h1>
+        <p>T.S.U. en Análisis y Diseño de Sistemas</p>
+    </section>
+    <section id="sobre-mi" class="seccion">
+        <h2>Sobre mí</h2>
+        <p>Estudiante analítica y enfocada en la resolución de problemas mediante el desarrollo de software, modelado de sistemas y optimización de procesos.</p>
+    </section>
+
+    <section id="proyectos" class="seccion">
+        <h2>Proyectos Destacados</h2>
+        <div class="grid-proyectos">
+            <div class="tarjeta">
+                <h3>Sistema de Control de Inventario</h3>
+                <p>Diseño y análisis del flujo de datos para la gestión automatizada de productos e inventarios.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>Modelado de Base de Datos</h3>
+                <p>Estructura relacional optimizada para la administración eficiente de registros y consultas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <h2>Contacto </h2>
+        <p>¿Interesado en colaborar o revisar mis proyectos?</p>
+        <p>Email:alexalopp19@gmail.com</p>
+    </footer> 
+    <script src="script.js"></script>
+</body>
+
+<style>styles.css
+/* Configuración general y tipo de letra */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f54293
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilo para la barra o título principal */
+header {
+    background-color:#facad5
+    color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #e91e63;
+    font-family: 'Georgia' , serif; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+nav ul li a {
+    font-size: 0.9rem !important;
+    color: #2c2c2c !important;
+    text-decoration: none;
+}
+header p {
+    color: #38bdf8;
+    margin-top: 0.5rem;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0f172a;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0.5rem 1rem;
+}
+
+nav ul li a {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: bold;
+}
+h2 {
+    color: #2c2c2c;
+    border-bottom: 2px solid #f48fb1; 
+    padding-bottom: 0.3rem;
+    margin-top: 0;
+}
+nav ul li a:hover {
+    color: ⁠#f48fb1;
+}
+
+/* Secciones de la página */
+section {
+    background-color:  ⁠#f48fb1
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color:  ⁠#f48fb1
+    border-bottom: 2px solid  ⁠#f48fb1
+    padding-bottom: 0.3rem;
+    margin-top: 0;
+}
+
+/* Pie de página / Contacto */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #facad5;
+    color: #2c2c2c;
+    margin-top: 2rem;
+}
+
+nav ul {
+    background-color: #facad5;
+    
+}
+
+.foto-perfil {
+    width: 160px;                    
+    height: 160px;                   
+    border-radius: 50%;              
+    object-fit: cover;               
+    border: 4px solid #f48fb1;      
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    margin: 1rem auto;               
+    display: block;                  
+</style>
